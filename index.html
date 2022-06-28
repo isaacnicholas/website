@@ -188,7 +188,9 @@
       <div class="row">
         <div class="col s12 center">
           <h4><a href="https://globalhealthmetrics.com">Global Health Metrics</a></h4>
-          <p>As a side project, I work with GHM as an indepenedent contractor primarly building and mainiting their health risk assessment software and the accompying portal, of which both I had a large part in originally building.</p>
+          <p>As a side project, I work with GHM as an indepenedent contractor primarly building and mainiting their
+            health risk assessment software and the accompying portal, of which both I had a large part in originally
+            building.</p>
         </div>
       </div>
       <div class="row">
@@ -219,7 +221,10 @@
             </li>
             <li>
               <div class="collapsible-header"><a href="https://cleveland.housing.health/">Housing.Health</a></div>
-              <div class="collapsible-body accordionli"><span>Housing.Health is a project between several partners in Cleveland, OH as a way to tell the health safety of a rental property in the city. The tool can look up and compare proerties on lead and structure risks. We built this in Flask/MySQL and use extensive Jinja templating to create the interactive pages.</span></div>
+              <div class="collapsible-body accordionli"><span>Housing.Health is a project between several partners in
+                  Cleveland, OH as a way to tell the health safety of a rental property in the city. The tool can look
+                  up and compare proerties on lead and structure risks. We built this in Flask/MySQL and use extensive
+                  Jinja templating to create the interactive pages.</span></div>
             </li>
           </ul>
         </div>
@@ -236,7 +241,10 @@
       <div class="row">
         <div class="col s12 center">
           <h4>Boy Scouts of America</h4>
-          <p>I currently work with Section E-13 of the Order of the Arrow, which is the honor society of Boy Scouts of America. Our section covers nearly all of West Virginia and the eastern half of Ohio and I server as the tech adviser, managing software and equipment (sound, streaming, computer networking, etc) for our events.</p>
+          <p>I currently work with Section E-13 of the Order of the Arrow, which is the honor society of Boy Scouts of
+            America. Our section covers nearly all of West Virginia and the eastern half of Ohio and I server as the
+            tech adviser, managing software and equipment (sound, streaming, computer networking, etc) for our events.
+          </p>
         </div>
       </div>
       <div class="row">
@@ -260,11 +268,24 @@
           <ul class="collapsible accordionul" id="bsa-accordion">
             <li class="active">
               <div class="collapsible-header">Registration</div>
-              <div class="collapsible-body accordionli"><span>When our section was created as a merger, I was tasked with looking into registration systems for our events. I decided to build a system from scratch to fit our needs more than an off the shelf registration site. Some of our custom features include a backend available for adult leaders to see who from their lodge is going as well as age/gender breakdowns for youth protection, a separate SMS portal (using Twilio's API) allowing us to send a text to all participants or to receive and send messages to one person to act as a help line, and the ability to control and limit add-ons based on multiple factors.</span></div>
+              <div class="collapsible-body accordionli"><span>When our section was created as a merger, I was tasked
+                  with looking into registration systems for our events. I decided to build a system from scratch to fit
+                  our needs more than an off the shelf registration site. Some of our custom features include a backend
+                  available for adult leaders to see who from their lodge is going as well as age/gender breakdowns for
+                  youth protection, a separate SMS portal (using Twilio's API) allowing us to send a text to all
+                  participants or to receive and send messages to one person to act as a help line, and the ability to
+                  control and limit add-ons based on multiple factors.</span></div>
             </li>
             <li>
               <div class="collapsible-header">SMS Internet Scavenger Hunt</div>
-              <div class="collapsible-body accordionli"><span>In 2020, we had to make our main event virtual due to the COVID-19 pandemic. On top of handling all the streaming and building a WordPress site to act as a guide, I was tasked with coming up with an "internet scavenger hunt". What I came up with is an SMS game (using Twilio's API and flask) composed of 8 locations the player had to guess, one for each lodge of our section. Once the player opted in, they would receive a clue for one of the locations being chosen at random. Every five minutes, they would receive an additional hint (five hints in total) until they were able to successfully guess it. Once they got it correct, they would receive the next question at random. The first person to get all 8 questions right received a prize.</span></div>
+              <div class="collapsible-body accordionli"><span>In 2020, we had to make our main event virtual due to the
+                  COVID-19 pandemic. On top of handling all the streaming and building a WordPress site to act as a
+                  guide, I was tasked with coming up with an "internet scavenger hunt". What I came up with is an SMS
+                  game (using Twilio's API and flask) composed of 8 locations the player had to guess, one for each
+                  lodge of our section. Once the player opted in, they would receive a clue for one of the locations
+                  being chosen at random. Every five minutes, they would receive an additional hint (five hints in
+                  total) until they were able to successfully guess it. Once they got it correct, they would receive the
+                  next question at random. The first person to get all 8 questions right received a prize.</span></div>
             </li>
           </ul>
         </div>
@@ -288,7 +309,7 @@
       console.log('callback - particles.js config loaded');
     });
     $(document).ready(function () {
-      $('.collapsible').collapsible({'onOpenEnd':update});
+      $('.collapsible').collapsible({ 'onOpenEnd': update });
     });
     update = function () {
       ul = document.querySelectorAll(".collapsible.accordionul");
